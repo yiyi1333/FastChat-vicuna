@@ -5,6 +5,10 @@ Usage:
 python3 -m fastchat.serve.cli --model lmsys/fastchat-t5-3b-v1.0
 python3 -m fastchat.serve.cli --model ~/model_weights/vicuna-7b
 
+
+python -m fastchat.serve.cli --model model/vicuna-7b-v1.1 --load-8bit
+
+
 Other commands:
 - Type "!!exit" or an empty line to exit.
 - Type "!!reset" to start a new conversation.
